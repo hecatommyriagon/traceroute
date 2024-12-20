@@ -6,6 +6,8 @@ the program listens for a set amount of time (default 15 seconds) for an ICMP ec
 an ICMP time-to-live-exceeded response until we send the max amount of datagrams or we get the
 echo response from the destination.
 
+Note: This will only work on Linux due to network stack 
+
 ### Building
 To build, execute the command `make` in the project directory
 
